@@ -1,0 +1,18 @@
+{
+  "name": "tailwindapp02",
+  "version": "1.0.0",
+  "description": "Masih banyak developer pemula yang kesulitan untuk meng-install Tailwindcss karena Update commands instalasi dari web Tailwindcss.com.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "tailwindcss build src/style.css -o dist/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
+}
